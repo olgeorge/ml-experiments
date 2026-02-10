@@ -23,6 +23,7 @@ wheels/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb.bak
 
 # Virtual environments
 venv/
@@ -47,3 +48,7 @@ Thumbs.db
 *.pickle
 *.npy
 *.npz
+
+# TensorBoard logs
+runs/
+*.tfevents.*
